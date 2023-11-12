@@ -3,6 +3,7 @@
 ## Git Commands
 
 git init
+git status
 git add README.md
 git commit -m "Initial Commit"
 git branch -M main
