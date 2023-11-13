@@ -21,5 +21,5 @@
 1. git diff # Shows the difference
 2. git merge #
 
-## Delete a branch called feature-1
+## Delete a branch named feature-1
 1. git branch -d feature-1
