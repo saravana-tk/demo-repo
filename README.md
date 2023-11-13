@@ -19,7 +19,22 @@
 ## Merge the branches
 
 1. git diff # Shows the difference
-2. git merge #
+2. git merge main #
 
-## Delete a branch
+## Delete a branch named feature-1
 1. git branch -d feature-1
+
+## Undo a stage file back to unstaged state
+1. git reset
+
+## Undo a commit locally and point to previous commit
+1. git reset HEAD~1
+
+## Undo a commit locally and point to previous commit
+1. git reset HEAD~2
+
+## Restore to a previous commit based on Hash
+1. git reset 64d9bd8f87704b3e5a88ba14e93ed21b6113b10a
+
+## Hard reset to a previous commit
+1. git reset --hard 64d9bd8f87704b3e5a88ba14e93ed21b6113b10a
