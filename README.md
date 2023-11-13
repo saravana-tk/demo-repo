@@ -15,3 +15,8 @@ git push -u origin main
 git checkout -b feature-1 # This will create a new branch
 git checkout main # This will switch to an already existing branch
 git checkout feature-1 # Again switching back to the feature-1 branch
+
+## Merge the branches
+
+git diff # Shows the difference
+git merge #
